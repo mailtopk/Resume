@@ -1,1 +1,37 @@
-<h1>Resume of Prashant Pooboni<h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prashant Pooboni - Resume</title>
+    <!-- Add any CSS or external stylesheets here -->
+</head>
+<body>
+    <!-- Your resume content goes here -->
+    <header>
+        <h1>Prashant Pooboni</h1>
+        <p>Full stack Developer</p>
+    </header>
+    <section id="about">
+        <!-- Add your personal information, skills, and summary -->
+    </section>
+    <section id="experience">
+        <!-- Add your work experience -->
+    </section>
+    <!-- Add other sections like education, projects, etc. -->
+    <footer>
+        <p>Contact: ppkumar.email@gmail.com</p>
+    </footer>
+    <script>
+    // Smooth scroll to section when clicking on navigation links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+</script>
+</body>
+</html>
