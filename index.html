@@ -4,34 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prashant Pooboni - Resume</title>
+    <!-- Link your custom CSS stylesheet here -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- Your resume content goes here -->
     <header>
         <h1>Prashant Pooboni</h1>
-        <p>Full stack Developer</p>
+        <p>Fullstack developer</p>
     </header>
     <section id="about">
-        <!-- Add your personal information, skills, and summary -->
+        About Me
     </section>
     <section id="experience">
-        <!-- Add your work experience -->
+        My Experience
     </section>
     <!-- Add other sections like education, projects, etc. -->
     <footer>
         <p>Contact: ppkumar.email@gmail.com</p>
     </footer>
+    <!-- Add any JavaScript scripts here -->
     <script>
-    // Smooth scroll to section when clicking on navigation links
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener('click', function (e) {
-            e.preventDefault();
-            document.querySelector(this.getAttribute('href')).scrollIntoView({
-                behavior: 'smooth'
+        // Smooth scroll to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
             });
         });
-    });
-</script>
+    </script>
 </body>
 </html>
